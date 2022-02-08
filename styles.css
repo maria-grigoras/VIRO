@@ -1,0 +1,191 @@
+body {
+  font-family: "Roboto";
+}
+
+h1 {
+  font-family: "Roboto";
+  font-size: 5rem;
+  line-height: 1.3;
+  font-weight: 900;
+}
+
+.container-fluid {
+  padding: 2% 15%;
+}
+
+#title {
+  background-image: url("imagini/Group202195.png");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  color: white;
+}
+
+/* navbar */
+
+.navbar {
+  padding: 0 0 8rem;
+}
+
+.navbar-brand {
+  font-family: "Roboto";
+  font-size: 1.5rem;
+}
+
+.logo-name {
+  margin-left: 1rem;
+}
+
+.logo-img {
+  width: 15%;
+}
+
+/* btn */
+
+.down-btn {
+  margin: 2rem 1.5rem 0 0;
+  background-color: #f58a18;
+  border: none;
+  padding: 0.7rem 3rem;
+}
+
+.down-btn:hover {
+  background-color: #fca950;
+}
+
+/* title image */
+
+.title-img {
+  width: 90%;
+  margin-left: 3rem;
+  margin-bottom: 9rem;
+}
+
+/* features */
+
+.my-container {
+  padding: 0% 15%;
+  margin: 0;
+  align-items: center;
+}
+
+#features {
+  text-align: center;
+  margin: 3rem 0;
+}
+
+.icon {
+  color: #f58a18;
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.features-des {
+  color: #8f8f8f;
+}
+
+.features-row {
+  padding: 0 3rem;
+  margin: 5rem 0;
+}
+
+/* users */
+
+.text-utulizator {
+  padding-right: 1rem;
+}
+
+.blue-bg {
+  background-color: #00a97a;
+}
+
+.orange-bg {
+  background-color: #f58a18;
+}
+
+.img-utilizator {
+  width: 480px;
+  height: 400px;
+  object-fit: cover;
+  object-position: 70% 0;
+}
+
+h5 {
+  color: white;
+  font-weight: 200;
+}
+
+h2 {
+  font-weight: bold;
+  color: white;
+  margin-bottom: 1.5rem;
+  font-size: 2.2rem;
+}
+
+.des-utilizator {
+  color: whitesmoke;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+
+/* features-2 */
+
+.icon-2 {
+  color: #00a97a;
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+/* footer */
+
+#cta {
+  background-image: url("imagini/group-hikers-overlay.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 15rem;
+  padding-bottom: 15rem;
+  align-items: center;
+}
+
+h4 {
+  font-size: 4rem;
+  color: white;
+  font-weight: bold;
+}
+
+/* footer */
+
+#footer {
+  background-color: #dadada;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.footer-txt {
+  color: #434343;
+  font-weight: bold;
+  text-align: center;
+}
+
+.abac-link {
+  text-decoration: none;
+  color: #a52b37;
+}
+
+/* @media */
+
+@media only screen and (max-width: 780px) {
+  .title-img {
+    width: 100%;
+    margin: 4rem auto 5rem auto;
+  }
+
+  .text-utulizator {
+    padding-top: 2rem;
+  }
+}
